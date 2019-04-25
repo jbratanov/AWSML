@@ -1,0 +1,210 @@
+From: "Saved by Internet Explorer 11"
+Subject: 
+Date: Sat, 20 Apr 2019 16:41:40 -0500
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://aml-sample-data.s3.amazonaws.com/social-media/aml_training_dataset.csv.schema
+X-MimeOLE: Produced By Microsoft MimeOLE
+
+<!DOCTYPE HTML>
+<!DOCTYPE html PUBLIC "" ""><HTML><HEAD><META content=3D"IE=3D11.0000"=20
+http-equiv=3D"X-UA-Compatible">
+
+<META http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3Dwindows-1252">
+<META name=3D"GENERATOR" content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<PRE>{=0A=
+    "attributes": [=0A=
+        {=0A=
+            "attributeName": "created_at_in_seconds",=0A=
+            "attributeType": "NUMERIC"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "description",=0A=
+            "attributeType": "TEXT"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "favorite_count",=0A=
+            "attributeType": "NUMERIC"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "favorited",=0A=
+            "attributeType": "CATEGORICAL"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "favourites_count",=0A=
+            "attributeType": "NUMERIC"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "followers_count",=0A=
+            "attributeType": "NUMERIC"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "friends_count",=0A=
+            "attributeType": "NUMERIC"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "geo_enabled",=0A=
+            "attributeType": "CATEGORICAL"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "in_reply_to_screen_name",=0A=
+            "attributeType": "CATEGORICAL"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "in_reply_to_status_id",=0A=
+            "attributeType": "NUMERIC"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "in_reply_to_user_id",=0A=
+            "attributeType": "NUMERIC"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "location",=0A=
+            "attributeType": "TEXT"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "r.created_at_in_seconds",=0A=
+            "attributeType": "NUMERIC"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "r.description",=0A=
+            "attributeType": "TEXT"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "r.favorite_count",=0A=
+            "attributeType": "NUMERIC"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "r.favorited",=0A=
+            "attributeType": "CATEGORICAL"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "r.favourites_count",=0A=
+            "attributeType": "NUMERIC"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "r.followers_count",=0A=
+            "attributeType": "NUMERIC"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "r.friends_count",=0A=
+            "attributeType": "NUMERIC"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "r.geo_enabled",=0A=
+            "attributeType": "CATEGORICAL"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "r.in_reply_to_screen_name",=0A=
+            "attributeType": "CATEGORICAL"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "r.in_reply_to_status_id",=0A=
+            "attributeType": "NUMERIC"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "r.in_reply_to_user_id",=0A=
+            "attributeType": "NUMERIC"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "r.location",=0A=
+            "attributeType": "TEXT"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "r.retweet_count",=0A=
+            "attributeType": "NUMERIC"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "r.screen_name",=0A=
+            "attributeType": "CATEGORICAL"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "r.sid",=0A=
+            "attributeType": "NUMERIC"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "r.statuses_count",=0A=
+            "attributeType": "NUMERIC"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "r.text",=0A=
+            "attributeType": "TEXT"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "r.time_zone",=0A=
+            "attributeType": "CATEGORICAL"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "r.uid",=0A=
+            "attributeType": "NUMERIC"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "r.user.name",=0A=
+            "attributeType": "TEXT"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "r.utc_offset",=0A=
+            "attributeType": "NUMERIC"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "r.verified",=0A=
+            "attributeType": "CATEGORICAL"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "retweet_count",=0A=
+            "attributeType": "NUMERIC"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "screen_name",=0A=
+            "attributeType": "CATEGORICAL"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "sid",=0A=
+            "attributeType": "CATEGORICAL"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "statuses_count",=0A=
+            "attributeType": "NUMERIC"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "text",=0A=
+            "attributeType": "TEXT"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "time_zone",=0A=
+            "attributeType": "CATEGORICAL"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "uid",=0A=
+            "attributeType": "NUMERIC"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "user.name",=0A=
+            "attributeType": "TEXT"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "utc_offset",=0A=
+            "attributeType": "NUMERIC"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "verified",=0A=
+            "attributeType": "CATEGORICAL"=0A=
+        },=0A=
+        {=0A=
+            "attributeName": "trainingLabel",=0A=
+            "attributeType": "BINARY"=0A=
+        }=0A=
+    ],=0A=
+    "dataFileContainsHeader": true,=0A=
+    "dataFormat": "CSV",=0A=
+    "excludedAttributeNames": [],=0A=
+    "rowId": "sid",=0A=
+    "rowWeight": null,=0A=
+    "targetAttributeName": "trainingLabel",=0A=
+    "version": "1.0"=0A=
+}=0A=
+</PRE></BODY></HTML>
